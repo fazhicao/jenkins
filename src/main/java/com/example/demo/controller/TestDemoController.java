@@ -10,7 +10,13 @@ public class TestDemoController {
 	
 	@GetMapping
 	public Object test() {
-		return "hello world test jenkins... 像我这样的人";
+		return "hello world test jenkins... 像我这样的人-毛不易";
+	}
+	
+	
+	@GetMapping("hello")
+	public Object index() {
+		return "糟糕的一天............";
 	}
 	
 	
