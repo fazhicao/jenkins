@@ -10,7 +10,9 @@ public class TestDemoController {
 	
 	@GetMapping
 	public Object test() {
-		return "hello world test jenkins...";
+		return "hello world test jenkins... 像我这样的人";
 	}
+	
+	
 
 }
